@@ -37,3 +37,32 @@
 
 
 */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main(void)
+{
+   int choice;
+   int max_num;
+    printf("********** Game Menu ***********\n");
+    printf("Press 1 to play a game\n");
+    printf("Press 2 to change the max number\n");
+    printf("Press 3 to quit\n");
+    scanf("%d", &choice);
+
+    if(choice == 3)
+    {
+        _Exit(0);
+    }
+    else if(choice == 2)
+    {
+        ;
+    }
+
+
+        
+
+    return 0;
+}
